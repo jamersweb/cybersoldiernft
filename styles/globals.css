@@ -5,6 +5,11 @@
 .fs15{
   font-size: 15px !important;
 }
+.headtxt{
+  font-family: 'tarrgetengrave' !important;
+  font-size: 60px !important;
+    letter-spacing: 5px;
+}
 html,
 body {
   padding: 0;
@@ -183,6 +188,11 @@ a {
 
 
 @media (max-width: 768px) {
+  .headtxt{
+    font-family: 'tarrgetengrave' !important;
+    font-size: 40px !important;
+      letter-spacing: 5px;
+  }
   .fs-20 {
     font-size: 16px;
   }
@@ -224,13 +234,12 @@ a {
 
 }
 
-.headtxt{
-  font-family: 'tarrgetengrave' !important;
-  font-size: 60px !important;
-    letter-spacing: 5px;
-}
+
 .bg-video img{
   z-index: 5 !important;
+}
+.bg-video {
+  overflow-x: clip;
 }
 
 
