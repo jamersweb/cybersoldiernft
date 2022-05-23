@@ -86,53 +86,55 @@ export default function Home() {
 
 
      <div className={styles.bgBody1}>
-      <div className={`${styles.cWidht} container`}>
+      <div className={`${styles.cWidht} container py-5`}>
        <div className='text-center py-5'>
-       <h1 className='fw-normal fs-1 text-white animate__animated animate__jackInTheBox animate__slower'>ABOUT US</h1>
-        <p className='text-uppercase lh-lg text-white fs-20 mx-md-20 fw-normal lh-lg'>ut also the leap into electronic typesetting, remaining essentially unchanged.
-          It was popularised in the 1960s with the release of Letraset sheets containing
-          ut also the leap into electronic typesetting, remaining essentially unchanged.
-          It was popularised in the 1960s with the release of Letraset sheets containing</p>
+       <h1 className='fw-normal fs-1 text-white headtxt'>ABOUT US</h1>
+        <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
+          Cyber Soldier is a collection of one-of-a-kind non-fungible tokens (NFTs) to attract casual and interested new collectors.
+          NFTs of Cyber Soldiers are both aesthetic and instructive. Cyber Soldier Learn, our next-generation comprehensive learning programme, is only accessible to members with a token. Those interested in the field of NFTs can obtain a thorough and comprehensive understanding of how they work by using our platform. Cyber Soldier Learn will provide members with exclusive, one-on-one access to some of the most innovative wheel-workers in technology today, from experts in NFTs and cryptocurrencies to Web3 and marketing, among a host of others, through personal coaching sessions and Q&amp;A's.
+        </p>
         <a href='#' className={`${styles.topButton} ${styles.bgButton} btn btn-outline-primary mx-3 fw-normal text-uppercase text-white`}>READ MORE
         <i className="fa fa-chevron-down mx-2 text-white"></i>
         </a>
        </div>
 
-       <div className='py-5'>
+       <div className='py-5 '>
+         <div className=''>
        <div className="ratio ratio-16x9 mb-5">
         <iframe src="https://www.youtube.com/embed/zpOULjyy-" title="YouTube video"></iframe>
+      </div>
       </div>
        </div>
 
           <div className='pb-5'>
-            <h1 className={`${styles.animatedContent} text-center fw-normal fs-1 text-white mb-5 text-uppercase`}>ROAD MAP</h1>
-            <div className="row text-center pb-5 d-none">
+            <h1 className={`${styles.animatedContent} text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt`}>ROAD MAP</h1>
+            {/* <div className="row text-center pb-5 d-none">
               <div className="col-lg-4 ">
                 <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 01</p>
               <Image className={styles.obfContain} src="/v-3.png" alt="Vercel Logo" width={250} height={300} />
               </div>
               <div className="col-lg-4">
-              <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 02</p>
+              <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 0222</p>
               <Image className={styles.obfContain} src="/v-2.png" alt="Vercel Logo" width={250} height={300} />
               </div>
               <div className="col-lg-4">
               <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 03</p>
               <Image className={styles.obfContain} src="/v-1.png" alt="Vercel Logo" width={250} height={300} />
               </div>
-            </div>
+            </div> */}
 
             <div className="row text-center pb-5">
              
               <ul className="nav nav-pills justify-content-center flex-w-unset" id="pills-tab" role="tablist">
                 <li className="nav-item me-3rem" role="presentation">
-                  <button className={`${styles.tabFocus} nav-link active p-0 bg-transparent border-0`}  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                  <button className={`${styles.tabFocus} nav-link  p-0 bg-transparent border-0`}  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                   <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 02</p>
                   <Image className={styles.obfContain} src="/v-3.png" alt="Vercel Logo" width={250} height={300} />
                   <img src='/cone.png' className='d-block text-center mx-auto cone h-40px' />
                   </button>
                 </li>
                 <li className="nav-item me-3rem" role="presentation">
-                  <button className={`${styles.tabFocus}  nav-link p-0 bg-transparent border-0`} id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <button className={`${styles.tabFocus}  nav-link active p-0 bg-transparent border-0`} id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
                   <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 01</p>
                   <Image className={styles.obfContain} src="/v-2.png" alt="Vercel Logo" width={250} height={300} />
                   <img src='/cone.png' className='d-block text-center mx-auto cone h-40px' />
@@ -147,11 +149,30 @@ export default function Home() {
                 </li>
               </ul>
               <div className="tab-content" id="pills-tabContent">
-                <div className={` ${styles.bgTabContent}  tab-pane fade show active text-white text-center p-5`} id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div className={` ${styles.bgTabContent}  tab-pane fade  text-white p-5 fs13 text-start `} id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                 </div>
-                <div className={` ${styles.bgTabContent}  tab-pane fade text-white  p-5`} id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">222222222222222</div>
-                <div className={` ${styles.bgTabContent}  tab-pane fade text-white  p-5`} id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">33333333333</div>
+                <div className={` ${styles.bgTabContent}  tab-pane fade show active text-start text-white  p-5 fs13`} id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <p className="text-start">
+                   <b> I-</b> Community challenges and events <br></br>
+                    Breeding II:<br></br>
+                    2nd Gen. Cyber can be obtained by combining Soldier with:<br></br>
+                    a. Hereditary characteristics<br></br>
+                    b. Changing art<br></br>
+                    World of Cyber will be accessible via the 2nd Gen Soldier.<br></br>
+                    Staking (III):<br></br>
+                    Earn Cyber by staking your first and second generation NFTs.<br></br>
+                    This is the World of Cyber currency, and it will be used for everything in the game, including (but not limited to):<br></br>
+                    Renting out your NFT, buying in-game real estate, getting cosmetics, and so on.<br></br>
+                    IV- Private Alpha testing in the World of Cyber:<br></br>
+                    The alpha will be tested by notable supporters and community members. This will be a cut-down version of the final game, meant to test quality and bugs while also gathering early input on game mechanics and balance.<br></br>
+                    V- Treasure Hunt: Following the completion of alpha testing, we will release a public demo on which we will organise the first in-game competition for holders!<br></br>
+
+                    This one is going to be unique! And the winners will be paid handsomely. Participants will be added to our whitelist for future drops.<br></br>
+                  </p>
+
+                  </div>
+                <div className={` ${styles.bgTabContent}  tab-pane fade text-white  p-5 fs13 text-start `} id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">33333333333</div>
               </div>
             </div>
 
@@ -161,69 +182,134 @@ export default function Home() {
 
   
           <div className='py-5'>
-          <h1 className='text-center fw-normal fs-1 text-white mb-5 text-uppercase'>Team member</h1>
+          <h1 className='text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt'>Team member</h1>
           <div className= "col-lg-12 col-12 text-center">
-          <div className='d-flex justify-content-center' style={{ justifyContent: 'flex-end'}}>
+          {/* <div className='d-flex justify-content-center' style={{ justifyContent: 'flex-end'}}>
           <Image className={styles.obfContain}  src="/banner-05.png" alt="Vercel Logo" width={160} height={300} />
           <Image className={styles.obfContain} src="/banner-06.png" alt="Vercel Logo" width={170} height={300} />
           <Image className={styles.obfContain} src="/banner-03.png" alt="Vercel Logo" width={200} height={600} />
           <Image className={styles.obfContain} src="/banner-04.png" alt="Vercel Logo" width={200} height={300} />
           <Image className={styles.obfContain} src="/banner-02.png" alt="Vercel Logo" width={160} height={300} />
 
+         
+
+
+
+          </div> */}
+          <div className='bg-video d-flex justify-content-center'>
+          <Image className={styles.obfContain}  src="/team.png" alt="Vercel Logo" width={1500} height={900} />
+          
           </div>
+         
           </div>
 
           </div>
 
           <div className='pb-5 mb-5'>
-            <h1 className='text-center fs-1 fw-normal  text-white mb-5 text-uppercase'>Q & A</h1>
+            <h1 className='text-center fs-1 fw-normal  text-white mb-5 text-uppercase headtxt'>Q & A</h1>
             <div className='col-lg-12 col-12'>
               <div className={`${styles.bgAccordin} accordin`} id="accordionExample">
                 <div className="accordion-item">
                   <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
                     <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
+                    WHAT EXACTLY IS AN NFT? WHAT DOES NFT REPRESENT?
                     </button>
                   </h2>
                   <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body text-white ">
-                      This is the first item's accordion body.It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <ul className='list-style-none p-0'>
+                        <li className='pb-2'>
+                        Non-transferable token.
+                        </li>
+                        <li className='pb-2'>
+                        That doesn't help things much.
+                        </li>
+                        <li>
+                        Sorry about that. "Non-fungible" essentially indicates that it is one-of-a-kind and cannot be replaced. A bitcoin, for example, is fungible, meaning you can exchange one for another and get precisely the identical thing. However, a one-of-a-kind trade card is not fungible. You'd get something altogether different if you swapped it for a different card. You traded a Squirtle for a 1909 T206 Honus Wagner, dubbed "the Mona Lisa of baseball cards" by StadiumTalk. (I'm going to believe them.)
+                        </li>
+                      </ul>
+            
                     </div>
                   </div>
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
                     <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
+                    HOW DO NFTS FUNCTION?
                     </button>
                   </h2>
                   <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div className="accordion-body text-white">
-                     This is the second item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Most NFTs are part of the Ethereum blockchain at a high level. Ethereum, like bitcoin and dogecoin, is a cryptocurrency, but its blockchain also enables these NFTs, which store additional information that allows them to function differently from, say, an ETH coin. It's worth mentioning that various blockchains can use NFTs in their own ways. (Some have already.)
                     </div>
                   </div>
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
                     <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white `} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
+                    WHAT SHOULD YOU BUY IN THE NFT SUPERMARKET?
                     </button>
                   </h2>
                   <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div className="accordion-body text-white">
-                      This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    NFTs can be anything digital (drawings, music, even your brain being downloaded and transformed into an AI), but the current buzz is focused on exploiting the technology to sell digital art.
                     </div>
                   </div>
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
                     <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #4
+                    WHAT KIND OF UTILITY WILL MY NFT INCLUDE?
                     </button>
                   </h2>
                   <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                     <div className="accordion-body text-white">
-                      This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Your Cyber Soldier NFT will provide you access to Cyber SoldierLearn, our Next Generation Comprehensive Learning Platform. Future airdrops, WL alliances with other collections, and 1:1 collaborations with well-known digital artists are all available to Cyber Soldier owners.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                    DO WE HAVE PERSONAL AND BUSINESS RIGHTS?
+                    </button>
+                  </h2>
+                  <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div className="accordion-body text-white">
+                    On the Ethereum Blockchain, each Cyber Soldier is an NFT. You entirely control the underlying Cyber Soldier when you buy an NFT. The smart contract and Ethereum network are solely responsible for NFT ownership. We may not seize, freeze, or otherwise alter the ownership of any Cyber Soldier at any time.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                    WHAT ARE THE ROYALTY FEES FOR SECONDARY MARKET SALES?
+                    </button>
+                  </h2>
+                  <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div className="accordion-body text-white">
+                    A 6% Fee will be assessed
+                    <ul className='list-style-none p-0'>
+                      <li >
+                      - 3% to the creators
+                      </li>
+                      <li>
+                      - 3% to the community DAO
+                      </li>
+                    </ul>
+                    Holders of Cyber Soldiers will have complete control over and voting rights over the distribution of these funds. Blue chip NFTs, Metaverse Land, ETH/BTC, Shitcoins, and other investments are common.
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                    WHAT SHOULD I DO IF I HAVE ADDITIONAL QUESTIONS?
+                    </button>
+                  </h2>
+                  <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div className="accordion-body text-white">
+                    Please join our discord or email us at info@CyberSoldier.com if you have any further questions.
                     </div>
                   </div>
                 </div>

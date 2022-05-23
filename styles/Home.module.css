@@ -2,9 +2,11 @@
   font-family: 'Marsek-Demi';
   src: url('../asset/Marsek-Demi.woff');
   }
-
-
-
+  @font-face {
+    font-family: 'tarrgetengrave';
+    src: url('../asset/tarrgetengrave.ttf');
+    }
+  
 
 .container {
   padding: 0 2rem;
@@ -165,7 +167,7 @@
 }
 
 .bgButton:hover {
-  background-image: url('../public/button.png');
+  background-image: url('../public/pinkbutton.png');
   background-size: 100% 100%;
     background-repeat: no-repeat;
     PADDING: 16px;
@@ -182,8 +184,8 @@
 }
 
 .bgBody1 {
-  background-image: url('../public/bg-body1.png');
-  background-size: cover;
+  background-image: url('../public/new-bg.png');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -209,16 +211,19 @@
 }
 
 .bgAccordin {
-  background-color: #ffffff0b;
-border-radius: 30px;
+  background-image: url(../public/bgRoadmap.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ border-radius: 30px;
 }
 
 .accordionButton:not(.collapsed)::after {
-  content: "\f067";
+  /* content: "\f067";
   font-family: "Font Awesome 5 Free";
-  font-size: 20px;
- background-image: unset;
- font-weight: bold;
+  font-size: 20px; */
+ background-image: url(../public/accRingplus.png);
+ background-size: contain;
+ padding: 30px;
 
 }
 
@@ -269,3 +274,6 @@ box-shadow: unset;
 }
 
 }
+
+
+
