@@ -98,7 +98,7 @@ export default function Home() {
         </a>
        </div>
 
-       <div className='py-5 '>
+       <div className='py-5 d-none'>
          <div className=''>
        <div className="ratio ratio-16x9 mb-5">
         <iframe src="https://www.youtube.com/embed/zpOULjyy-" title="YouTube video"></iframe>
@@ -196,9 +196,29 @@ export default function Home() {
 
 
           </div> */}
-          <div className='bg-video d-flex justify-content-center'>
+          <div className='bg-video position-relative'>
           <Image className={styles.obfContain}  src="/team.png" alt="Vercel Logo" width={1500} height={900} />
           
+
+          <section class="ag-smoke-block">
+    <div class="ag-smoke-1"><img src="/bluemoke.png" /></div>
+    <div class="ag-smoke-1 ag-smoke__delay-1"><img src="/pinkmoke.png" /></div>
+    <div class="ag-smoke-1 ag-smoke__delay-2"><img src="/pinkmoke.png" /></div>
+    <div class="ag-smoke-2"><img src="/pinkmoke.png"/></div>
+    <div class="ag-smoke-2 ag-smoke__delay-1"><img src="/pinkmoke.png" /></div>
+    <div class="ag-smoke-2 ag-smoke__delay-2"><img src="/bluemoke.png"/></div>
+    <div class="ag-smoke-3"><img src="/bluemoke.png"/></div>
+    <div class="ag-smoke-3 ag-smoke__delay-1"><img src="/pinkmoke.png" /></div>
+    <div class="ag-smoke-3 ag-smoke__delay-2"><img src="/bluemoke.png" /></div>
+    <div class="ag-smoke-4 ag-smoke__delay-1"><img src="/bluemoke.png" /></div>
+    <div class="ag-smoke-4 ag-smoke__delay-2"><img src="/bluemoke.png" /></div>
+
+    <div class="ag-format-container">
+
+    </div>
+  </section>
+
+
           </div>
          
           </div>
@@ -316,6 +336,14 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+
+
+
+
+
+
+
 
           <footer className='pb-5'>
             <div className='col-lg-12 col-12 text-center'>
