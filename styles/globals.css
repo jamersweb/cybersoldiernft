@@ -71,6 +71,20 @@ a {
   box-shadow: none;
 }
 
+.cus-style {
+  padding: 35px !important;
+  font-size: 13px;
+}
+
+.fs-15 {
+  font-size: 15px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mar-b-5 {
+  margin-bottom: 30px;
+}
+
 .videoBanner {
 
   background-image: url(../public/v-banner.png);
@@ -566,6 +580,71 @@ body {
   .ag-format-container {
     width: 960px;
   }
+
+}
+
+@media (max-width: 768px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .displayGrid  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .iconList a {
+    margin-right: 15px;
+  }
+
+  .dis-none {
+    display: none;
+  }
+
+.fs15 {
+    font-size: 11px !important;
+}
+
+
+.cus-style {
+  padding: 25px !important;
+  font-size: 11px;
+}
+
+.ag-smoke-2 {
+  width: unset !important;
+}
+
+.a-ques {
+  text-align: left;
+  font-size: 14px !important;
+}
+
+.a-ans {
+  text-align: left;
+  font-size: 12px !important;
+}
+
+.row-reverse {
+  display: flex;
+  flex-flow: column-reverse;
+  padding: 10px;
+  margin: 0px;
+}
+
+.bgButton {
+  width: 70%;
+  margin: auto;
+}
+
+.mar-b-5 {
+  margin: unset;
+}
+
+.fs-15 {
+  font-size: 12px;
+}
 
 }
 

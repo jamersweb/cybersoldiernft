@@ -35,17 +35,16 @@ export default function Home() {
               <li className="nav-item">
                 <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#">Q & A</a>
               </li>
-              
             </ul>
-           <div className={styles.bgButton}>
+           <div className={`${styles.bgButton} bgButton`}>
            <a href='#' className={`${styles.topButton} btn btn-outline-primary text-uppercase text-white`}  >connect wallet</a>
            </div>
           </div>
         </div>
       </nav>
       <div className={`${styles.bgTop11}`} style={{paddingTop: "15%"}}>
-        <div className={`${styles.cWidht} container pt-5`}>
-          <div className={`${styles.displayGrid} ${styles.iconList} mb-5`}>
+        <div className={`${styles.cWidht} container pt-5 row-reverse`}>
+          <div className={`${styles.displayGrid} ${styles.iconList} mar-b-5`}>
             <a className='text-center '>
             <i className='fa fa-facebook  '></i>
             </a>
@@ -58,19 +57,14 @@ export default function Home() {
               <a className='text-center'>
               <i className='fab fa-discord  '></i>
               </a>
-
-          
-          
-          
-         
           </div>
 
 
           <div className='text-center'>
-            <h4 className='text-uppercase lh-sm text-white fw-normal fs-4 text-shadow-md'>
+            <h4 className='text-uppercase lh-sm text-white fw-normal fs-15 text-shadow-md'>
               Partner with one of the world's largest retailers 
               to showase your brand and products. </h4>
-            <div className=' mt-5'>
+            <div className=' mt-5 dis-none'>
             <a href='#' className={`${styles.topButton} ${styles.bgButton} btn btn-outline-primary mx-3 fw-normal text-uppercase text-white`}>
               <i className='fab fa-discord me-2'></i>JOIN DISCORD
               </a>
@@ -152,7 +146,7 @@ export default function Home() {
                 <div className={` ${styles.bgTabContent}  tab-pane fade  text-white p-5 fs13 text-start `} id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                 </div>
-                <div className={` ${styles.bgTabContent}  tab-pane fade show active text-start text-white  p-5 fs13`} id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div className={` ${styles.bgTabContent}  tab-pane fade show active text-start text-white cus-style `} id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                   <p className="text-start">
                    <b> I-</b> Community challenges and events <br></br>
                     Breeding II:<br></br>
@@ -231,12 +225,12 @@ export default function Home() {
               <div className={`${styles.bgAccordin} accordin`} id="accordionExample">
                 <div className="accordion-item">
                   <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
-                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     WHAT EXACTLY IS AN NFT? WHAT DOES NFT REPRESENT?
                     </button>
                   </h2>
                   <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div className="accordion-body text-white ">
+                    <div className="accordion-body text-white a-ans">
                       <ul className='list-style-none p-0'>
                         <li className='pb-2'>
                         Non-transferable token.
@@ -254,60 +248,60 @@ export default function Home() {
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
-                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     HOW DO NFTS FUNCTION?
                     </button>
                   </h2>
                   <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div className="accordion-body text-white">
+                    <div className="accordion-body text-white a-ans">
                     Most NFTs are part of the Ethereum blockchain at a high level. Ethereum, like bitcoin and dogecoin, is a cryptocurrency, but its blockchain also enables these NFTs, which store additional information that allows them to function differently from, say, an ETH coin. It's worth mentioning that various blockchains can use NFTs in their own ways. (Some have already.)
                     </div>
                   </div>
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
-                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white `} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white `} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     WHAT SHOULD YOU BUY IN THE NFT SUPERMARKET?
                     </button>
                   </h2>
                   <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div className="accordion-body text-white">
+                    <div className="accordion-body text-white a-ans">
                     NFTs can be anything digital (drawings, music, even your brain being downloaded and transformed into an AI), but the current buzz is focused on exploiting the technology to sell digital art.
                     </div>
                   </div>
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
-                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                     WHAT KIND OF UTILITY WILL MY NFT INCLUDE?
                     </button>
                   </h2>
                   <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                    <div className="accordion-body text-white">
+                    <div className="accordion-body text-white a-ans">
                     Your Cyber Soldier NFT will provide you access to Cyber SoldierLearn, our Next Generation Comprehensive Learning Platform. Future airdrops, WL alliances with other collections, and 1:1 collaborations with well-known digital artists are all available to Cyber Soldier owners.
                     </div>
                   </div>
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
-                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
                     DO WE HAVE PERSONAL AND BUSINESS RIGHTS?
                     </button>
                   </h2>
                   <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                    <div className="accordion-body text-white">
+                    <div className="accordion-body text-white a-ans">
                     On the Ethereum Blockchain, each Cyber Soldier is an NFT. You entirely control the underlying Cyber Soldier when you buy an NFT. The smart contract and Ethereum network are solely responsible for NFT ownership. We may not seize, freeze, or otherwise alter the ownership of any Cyber Soldier at any time.
                     </div>
                   </div>
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
-                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
                     WHAT ARE THE ROYALTY FEES FOR SECONDARY MARKET SALES?
                     </button>
                   </h2>
                   <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                    <div className="accordion-body text-white">
+                    <div className="accordion-body text-white a-ans">
                     A 6% Fee will be assessed
                     <ul className='list-style-none p-0'>
                       <li >
@@ -323,12 +317,12 @@ export default function Home() {
                 </div>
                 <div className="accordion-item">
                 <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
-                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
                     WHAT SHOULD I DO IF I HAVE ADDITIONAL QUESTIONS?
                     </button>
                   </h2>
                   <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                    <div className="accordion-body text-white">
+                    <div className="accordion-body text-white a-ans">
                     Please join our discord or email us at info@CyberSoldier.com if you have any further questions.
                     </div>
                   </div>
