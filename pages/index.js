@@ -339,7 +339,7 @@ export default function Home() {
 
 
 
-          <footer className='pb-5'>
+          <footer className='-5'>
             <div className='col-lg-12 col-12 text-center'>
               <Image className={styles.obfContain} src="/samurai-logo.png" alt="Vercel Logo" width={150} height={46} />
             </div>
