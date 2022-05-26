@@ -186,6 +186,11 @@ a {
   margin-left: 0px
 }
 
+
+.wowow li button.active img {
+ background: url(../public/focusteam.png);
+}
+
 @-webkit-keyframes masked-animation {
   0% {
     background-position: left bottom;
@@ -287,7 +292,7 @@ body {
   animation: an-smoke-1 6s ease-in-out infinite;
 }
 .ag-smoke-2 {
-  width: 67.1em;
+  width: 61.1em;
 
   z-index: -2;
   top: -14rem;

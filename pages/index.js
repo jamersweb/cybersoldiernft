@@ -84,9 +84,8 @@ export default function Home() {
        <div className='text-center py-5'>
        <h1 className='fw-normal fs-1 text-white headtxt'>ABOUT US</h1>
         <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
-          Cyber Soldier is a collection of one-of-a-kind non-fungible tokens (NFTs) to attract casual and interested new collectors.
-          NFTs of Cyber Soldiers are both aesthetic and instructive. Cyber Soldier Learn, our next-generation comprehensive learning programme, is only accessible to members with a token. Those interested in the field of NFTs can obtain a thorough and comprehensive understanding of how they work by using our platform. Cyber Soldier Learn will provide members with exclusive, one-on-one access to some of the most innovative wheel-workers in technology today, from experts in NFTs and cryptocurrencies to Web3 and marketing, among a host of others, through personal coaching sessions and Q&amp;A's.
-        </p>
+        Cyber Soldier is a collection of one-of-a-kind non-fungible tokens (NFTs) to attract casual and interested new collectors. NFTs of Cyber Soldiers are both aesthetic and instructive. We provide complete NFT collection launch services not limited to graphic design, web development, digital marketing and blockchain development. We help brands and artists all around the world design and launch their own successful NFT collection. At Cyber Soldier, we also provide our members with exclusive, one-on-one access to some of the most innovative wheel-workers in technology today, from experts in NFTs and cryptocurrencies to Web3 and marketing, among a host of others, through personal coaching sessions and Q&As.
+           </p>
         <a href='#' className={`${styles.topButton} ${styles.bgButton} btn btn-outline-primary mx-3 fw-normal text-uppercase text-white`}>READ MORE
         <i className="fa fa-chevron-down mx-2 text-white"></i>
         </a>
@@ -119,9 +118,9 @@ export default function Home() {
 
             <div className="row text-center pb-5">
              
-              <ul className="nav nav-pills justify-content-center flex-w-unset" id="pills-tab" role="tablist">
+              <ul className="nav nav-pills justify-content-center flex-w-unset wowow" id="pills-tab" role="tablist">
                 <li className="nav-item me-3rem" role="presentation">
-                  <button className={`${styles.tabFocus} nav-link  p-0 bg-transparent border-0`}  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                  <button className={`${styles.tabFocus} nav-link  p-0 bg-transparent border-0 `}  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                   <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 02</p>
                   <Image className={styles.obfContain} src="/v-3.png" alt="Vercel Logo" width={250} height={300} />
                   <img src='/cone.png' className='d-block text-center mx-auto cone h-40px' />
@@ -144,29 +143,19 @@ export default function Home() {
               </ul>
               <div className="tab-content" id="pills-tabContent">
                 <div className={` ${styles.bgTabContent}  tab-pane fade  text-white p-5 fs13 text-start `} id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                Groundwork of Pre sale and Public mint as per White List specification 
                 </div>
                 <div className={` ${styles.bgTabContent}  tab-pane fade show active text-start text-white cus-style `} id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                   <p className="text-start">
-                   <b> I-</b> Community challenges and events <br></br>
-                    Breeding II:<br></br>
-                    2nd Gen. Cyber can be obtained by combining Soldier with:<br></br>
-                    a. Hereditary characteristics<br></br>
-                    b. Changing art<br></br>
-                    World of Cyber will be accessible via the 2nd Gen Soldier.<br></br>
-                    Staking (III):<br></br>
-                    Earn Cyber by staking your first and second generation NFTs.<br></br>
-                    This is the World of Cyber currency, and it will be used for everything in the game, including (but not limited to):<br></br>
-                    Renting out your NFT, buying in-game real estate, getting cosmetics, and so on.<br></br>
-                    IV- Private Alpha testing in the World of Cyber:<br></br>
-                    The alpha will be tested by notable supporters and community members. This will be a cut-down version of the final game, meant to test quality and bugs while also gathering early input on game mechanics and balance.<br></br>
-                    V- Treasure Hunt: Following the completion of alpha testing, we will release a public demo on which we will organise the first in-game competition for holders!<br></br>
-
-                    This one is going to be unique! And the winners will be paid handsomely. Participants will be added to our whitelist for future drops.<br></br>
-                  </p>
+                  Gathering Information and collaboration with other Communities of Metaverse Land Gaming and establishing honorary NFT’s for every holders 
+                 </p>
 
                   </div>
-                <div className={` ${styles.bgTabContent}  tab-pane fade text-white  p-5 fs13 text-start `} id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">33333333333</div>
+                <div className={` ${styles.bgTabContent}  tab-pane fade text-white  p-5 fs13 text-start `} id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                Merchandise for community like high quality collectables and toys. Introduction to Cyber Samurai and empowering potential earning. 
+This one is going to be unique! And the winners will be paid handsomely. Participants will be added to our whitelist for future drops.
+
+                </div>
               </div>
             </div>
 
@@ -223,13 +212,31 @@ export default function Home() {
             <h1 className='text-center fs-1 fw-normal  text-white mb-5 text-uppercase headtxt'>Q & A</h1>
             <div className='col-lg-12 col-12'>
               <div className={`${styles.bgAccordin} accordin`} id="accordionExample">
+              <div className="accordion-item">
+                  <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
+                    <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseafter" aria-expanded="true" aria-controls="collapseafter">
+                    WHAT DO CYBER SOLDER HAS TO OFFER?
+                                        </button>
+                  </h2>
+                  <div id="collapseafter" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div className="accordion-body text-white a-ans">
+                      <ul className='list-style-none p-0'>
+                        <li className='pb-2'>
+                        We provide all of the services required to start an NFT collection. You can hire us to handle the graphic design, social media strategy, discord server, roadmap development, smart contract development, and, of course, website building for your collection.
+                        </li>
+                       
+                      </ul>
+            
+                    </div>
+                  </div>
+                </div>
                 <div className="accordion-item">
                   <h2 className={`${styles.focusOutlineunset} accordion-header `} id="headingOne">
                     <button className={`${styles.focusOutlineunset} ${styles.accordionButton} a-ques accordion-button bg-transparent fw-normal fs-5 text-white`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     WHAT EXACTLY IS AN NFT? WHAT DOES NFT REPRESENT?
                     </button>
                   </h2>
-                  <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" className="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body text-white a-ans">
                       <ul className='list-style-none p-0'>
                         <li className='pb-2'>
