@@ -257,7 +257,7 @@ box-shadow: unset;
 @media (max-width: 768px) {
   .bgTop11 {
     height: 70vh;
-    display: flex;
+    display: flex !important;
     align-items: end;
   }
   .topButton {
