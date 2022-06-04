@@ -76,6 +76,18 @@ a {
   font-size: 13px;
 }
 
+.cw-width {
+  height: 600px;
+  width: 220px;
+  object-fit: contain;
+}
+
+.cw-m-img {
+    height: 600px;
+    width: 300px;
+    object-fit: contain;
+}
+
 .fs-15 {
   font-size: 15px !important;
   padding-left: 20px;
@@ -113,6 +125,11 @@ a {
   overflow: visible !important;
 }
 
+::selection { 
+  color: #ffffff;
+  background-color: #ffffff3b;
+  
+}
 
 
 .imgTxt {
@@ -252,6 +269,25 @@ color: transparent;
     object-fit: contain;
   }
 
+  .c-md-left1 {
+    left: 52px;
+  }
+
+  .c-md-left2 {
+    left: -15px;
+  }
+
+  .c-md-left3 {
+    left: -80px;
+  }
+
+  .c-md-left4 {
+    left: -170px;
+  }
+
+  .c-md-left5 {
+    left: -238px;
+  }
 
   .headtxt{
     font-family: 'tarrgetengrave' !important;
@@ -260,6 +296,26 @@ color: transparent;
   }
   .fs-20 {
     font-size: 16px;
+  }
+
+
+  .cw-width {
+    height: 200px;
+    width: 220px;
+    object-fit: contain;
+  }
+  
+  .cw-m-img {
+      height: 200px;
+      width: 300px;
+      object-fit: contain;
+  } 
+
+  .characterTab {
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    padding: 15px;
+    bottom: -120px;
   }
 
   .mx-md-20 {

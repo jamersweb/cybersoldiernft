@@ -171,8 +171,8 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
           {/* <Image className={styles.obfContain}  src="/team.png" alt="Vercel Logo" width={1500} height={900} /> */}
           <div className='d-flex justify-content-center' style={{ justifyContent: 'flex-end'}}>
                   <div className='imgHover position-relative'>
-                    <img className={` ${styles.obfContain} `} style={{ marginLeft: 0, }} src="/banner-05.png" alt="Vercel Logo" width={190} height={500} />
-                    <div className='imgTxt characterTab position-absolute w-350'>
+                    <img className='cw-width' style={{ marginLeft: 0, }} src="/banner-05.png" alt="Vercel Logo" width={220} height={600} />
+                    <div className='imgTxt characterTab position-absolute w-350 c-md-left1'>
                       <h4 className='text-white fs-20'>
                         Character 1
                       </h4>
@@ -183,8 +183,8 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
                     </div>
                   </div>
                  <div className='imgHover position-relative'>
-                    <img className={` ${styles.obfContain} `} style={{ marginLeft: 0 }} src="/banner-06.png" alt="Vercel Logo" width={220} height={600} />
-                    <div className='imgTxt characterTab position-absolute w-350'>
+                    <img className='cw-width' style={{ marginLeft: 0 }} src="/banner-06.png" alt="Vercel Logo" width={220} height={600} />
+                    <div className='imgTxt characterTab position-absolute w-350 c-md-left2'>
                       <h4 className='text-white fs-20'>
                         Character 1
                       </h4>
@@ -195,8 +195,8 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
                     </div>
                   </div>
                  <div className='imgHover position-relative '>
-                    <img className={` ${styles.obfContain} `} src="/banner-03.png" alt="Vercel Logo" width={300} height={700} />
-                    <div className='imgTxt characterTab position-absolute w-350'>
+                    <img className='cw-m-img' src="/banner-03.png" alt="Vercel Logo" width={300} height={600} />
+                    <div className='imgTxt characterTab position-absolute w-350 c-md-left3'>
                       <h4 className='text-white fs-20'>
                         Character 1
                       </h4>
@@ -208,8 +208,8 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
                   </div>
 
                  <div className='imgHover position-relative'>
-                    <img className={` ${styles.obfContain} `} style={{ marginLeft: 0 }} src="/banner-04.png" alt="Vercel Logo" width={250} height={600} />
-                    <div className='imgTxt characterTab position-absolute w-350'>
+                    <img className='cw-width' style={{ marginLeft: 0 }} src="/banner-04.png" alt="Vercel Logo"  />
+                    <div className='imgTxt characterTab position-absolute w-350 c-md-left4'>
                       <h4 className='text-white fs-20'>
                         Character 1
                       </h4>
@@ -221,8 +221,8 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
                   </div>
 
                  <div className='imgHover position-relative'>
-                    <img className={` ${styles.obfContain} `} style={{ marginLeft: 0, }} src="/banner-02.png" alt="Vercel Logo" width={190} height={500} />
-                    <div className='imgTxt characterTab position-absolute w-350'>
+                    <img className='cw-width' style={{ marginLeft: 0, }} src="/banner-02.png" alt="Vercel Logo" width={220} height={600} />
+                    <div className='imgTxt characterTab position-absolute w-350 c-md-left5'>
                       <h4 className='text-white fs-20'>
                         Character 1
                       </h4>
