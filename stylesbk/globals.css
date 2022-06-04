@@ -95,48 +95,10 @@ a {
   width: 100%;
 }
 
-.characterTab {
-  backdrop-filter: blur(50px);
-  border-radius: 20px;
-  padding: 15px;
-  bottom: 200px;
-  left: 0;
-  right: 0;
-}
-
-.w-350 {
-  width: 250px;
-  z-index: 12;
-}
-
-.overflow-visible {
-  overflow: visible !important;
-}
-
-
-
-.imgTxt {
- display: none;
- }
- 
-
-.imgHover:hover {
-color: transparent;
-}
-
-.imgHover:hover .imgTxt {
-  display: block;
-}
-
-
 .list-style-none li {
   list-style: none;
 }
-.header-logo{
-  height: 100px;
-  width: 100px;
-  object-fit: contain;
-}
+
 /* .bg-video {
   background: url(../public/Smoke33.gif);
   background-repeat: no-repeat;
@@ -245,14 +207,6 @@ color: transparent;
 
 
 @media (max-width: 768px) {
-
-  .header-logo{
-    height: 60px;
-    width: 60px;
-    object-fit: contain;
-  }
-
-
   .headtxt{
     font-family: 'tarrgetengrave' !important;
     font-size: 40px !important;
@@ -276,14 +230,13 @@ color: transparent;
   }
 
   .navbar-collapse {
-    background-image: url(../public/bgRoadmap.png);
+    background-image: url(../public/bg-body1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100% 100%;
     border-radius: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #00001ac4;
   }
   
   .flex-w-unset {
