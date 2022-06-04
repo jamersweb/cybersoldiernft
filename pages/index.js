@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <div className={`${styles.bgTop11}`} style={{paddingTop: "15%"}}>
+      <div className={`${styles.bgTop11}`}>
         <div className={`${styles.cWidht} container pt-5 row-reverse`}>
           <div className={`${styles.displayGrid} ${styles.iconList} mar-b-5`}>
             <a className='text-center '>

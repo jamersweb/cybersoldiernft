@@ -181,6 +181,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  padding-top: 15%;
+
 
 }
 
@@ -255,7 +257,8 @@ box-shadow: unset;
 @media (max-width: 768px) {
   .bgTop11 {
     height: 70vh;
-  
+    display: flex;
+    align-items: center;
   }
   .topButton {
     /* outline: 2px solid #0851DC; */
@@ -269,8 +272,8 @@ box-shadow: unset;
   
 .iconList a  {
 
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
 
 }
   .grid {
