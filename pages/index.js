@@ -24,16 +24,16 @@ export default function Home() {
           <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2">
               <li className="nav-item">
-                <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#">About Us</a>
+                <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#about-us">About Us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#">Team</a>
+                <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#team">Team</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#">Roadmap</a>
+                <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#roadmap">Roadmap</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#">Q & A</a>
+                <a className="nav-link text-uppercase fw-Normal text-white fs-4" aria-current="page" href="#q-and-a">Q & A</a>
               </li>
             </ul>
            <div className={`${styles.bgButton} bgButton `}>
@@ -81,7 +81,7 @@ export default function Home() {
      <div className={styles.bgBody1}>
       <div className={`${styles.cWidht} container py-5`}>
        <div className='text-center py-5'>
-       <h1 className='fw-normal fs-1 text-white headtxt'>ABOUT US</h1>
+       <h1 className='fw-normal fs-1 text-white headtxt' id='about-us'>ABOUT US</h1>
         <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
         Cyber Soldier is a collection of one-of-a-kind non-fungible tokens (NFTs) to attract casual and interested new collectors. NFTs of Cyber Soldiers are both aesthetic and instructive. We provide complete NFT collection launch services not limited to graphic design, web development, digital marketing and blockchain development. We help brands and artists all around the world design and launch their own successful NFT collection. At Cyber Soldier, we also provide our members with exclusive, one-on-one access to some of the most innovative wheel-workers in technology today, from experts in NFTs and cryptocurrencies to Web3 and marketing, among a host of others, through personal coaching sessions and Q&As.
            </p>
@@ -98,8 +98,8 @@ export default function Home() {
       </div>
        </div>
 
-          <div className='pb-5'>
-            <h1 className={`${styles.animatedContent} text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt`}>ROAD MAP</h1>
+          <div className='pb-md-5 pb-3'> 
+            <h1 className={`${styles.animatedContent} text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt`} id='roadmap' >ROAD MAP</h1>
             {/* <div className="row text-center pb-5 d-none">
               <div className="col-lg-4 ">
                 <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 01</p>
@@ -115,27 +115,27 @@ export default function Home() {
               </div>
             </div> */}
 
-            <div className="row text-center pb-5">
+            <div className="row text-center pb-md-5">
              
               <ul className="nav nav-pills justify-content-center flex-w-unset wowow" id="pills-tab" role="tablist">
                 <li className="nav-item me-3rem" role="presentation">
                   <button className={`${styles.tabFocus} nav-link  p-0 bg-transparent border-0 `}  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                   <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 02</p>
-                  <Image className={styles.obfContain} src="/v-3.png" alt="Vercel Logo" width={250} height={300} />
+                  <Image className={styles.obfContain} src="/v-3.png" alt="Vercel Logo" width={280} height={280} />
                   <img src='/cone.png' className='d-block text-center mx-auto cone h-40px' />
                   </button>
                 </li>
                 <li className="nav-item me-3rem" role="presentation">
                   <button className={`${styles.tabFocus}  nav-link active p-0 bg-transparent border-0`} id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
                   <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 01</p>
-                  <Image className={styles.obfContain} src="/v-2.png" alt="Vercel Logo" width={250} height={300} />
+                  <Image className={styles.obfContain} src="/v-2.png" alt="Vercel Logo" width={280} height={280} />
                   <img src='/cone.png' className='d-block text-center mx-auto cone h-40px' />
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
                   <button className={`${styles.tabFocus}  nav-link p-0 bg-transparent border-0`} id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
                   <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 03</p>
-                  <Image className={styles.obfContain} src="/v-1.png" alt="Vercel Logo" width={250} height={300} />
+                  <Image className={styles.obfContain} src="/v-1.png" alt="Vercel Logo" width={280} height={280} />
                   <img src='/cone.png' className='d-block text-center mx-auto cone h-40px' />
                   </button>
                 </li>
@@ -146,7 +146,7 @@ export default function Home() {
                 </div>
                 <div className={` ${styles.bgTabContent}  tab-pane fade show active text-start text-white cus-style `} id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                   <p className="text-start">
-                  Gathering Information and collaboration with other Communities of Metaverse Land Gaming and establishing honorary NFT’s for every holders 
+                  Gathering Information and collaboration with other Communities of Metaverse Land Gaming and establishing honorary NFTâ€™s for every holders 
                  </p>
 
                   </div>
@@ -164,13 +164,13 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
 
   
           <div className='py-5'>
-          <h1 className='text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt'>Team member</h1>
+          <h1 className='text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt' id='team'>Team member</h1>
           <div className= "col-lg-12 col-12 text-center">
           
           <div className='bg-video position-relative overflow-visible'>
           {/* <Image className={styles.obfContain}  src="/team.png" alt="Vercel Logo" width={1500} height={900} /> */}
-          <div className='d-flex justify-content-center' style={{ justifyContent: 'flex-end'}}>
-                  <div className='imgHover position-relative'>
+          <div className='d-flex align-items-end justify-content-center sm-relative' style={{ justifyContent: 'flex-end'}}>
+                  <div className='imgHover margin-minus-right position-relative'>
                     <img className='cw-width' style={{ marginLeft: 0, }} src="/banner-05.png" alt="Vercel Logo" width={220} height={600} />
                     <div className='imgTxt characterTab position-absolute w-350 c-md-left1'>
                       <h4 className='text-white fs-20'>
@@ -182,11 +182,11 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
                       </p>
                     </div>
                   </div>
-                 <div className='imgHover position-relative'>
+                 <div className='imgHover margin-minus-right position-relative'>
                     <img className='cw-width' style={{ marginLeft: 0 }} src="/banner-06.png" alt="Vercel Logo" width={220} height={600} />
                     <div className='imgTxt characterTab position-absolute w-350 c-md-left2'>
                       <h4 className='text-white fs-20'>
-                        Character 1
+                        Character 2
                       </h4>
                       <p className='text-white fs-14'>
                         It is a long established fact that a reader will be distracted
@@ -194,11 +194,11 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
                       </p>
                     </div>
                   </div>
-                 <div className='imgHover position-relative '>
+                 <div className='imgHover  position-relative '>
                     <img className='cw-m-img' src="/banner-03.png" alt="Vercel Logo" width={300} height={600} />
                     <div className='imgTxt characterTab position-absolute w-350 c-md-left3'>
                       <h4 className='text-white fs-20'>
-                        Character 1
+                        Character 3
                       </h4>
                       <p className='text-white fs-14'>
                         It is a long established fact that a reader will be distracted
@@ -207,11 +207,11 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
                     </div>
                   </div>
 
-                 <div className='imgHover position-relative'>
+                 <div className='imgHover margin-minus-left position-relative'>
                     <img className='cw-width' style={{ marginLeft: 0 }} src="/banner-04.png" alt="Vercel Logo"  />
                     <div className='imgTxt characterTab position-absolute w-350 c-md-left4'>
                       <h4 className='text-white fs-20'>
-                        Character 1
+                        Character 4
                       </h4>
                       <p className='text-white fs-14'>
                         It is a long established fact that a reader will be distracted
@@ -220,11 +220,11 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
                     </div>
                   </div>
 
-                 <div className='imgHover position-relative'>
+                 <div className='imgHover margin-minus-left position-relative'>
                     <img className='cw-width' style={{ marginLeft: 0, }} src="/banner-02.png" alt="Vercel Logo" width={220} height={600} />
                     <div className='imgTxt characterTab position-absolute w-350 c-md-left5'>
                       <h4 className='text-white fs-20'>
-                        Character 1
+                        Character 5
                       </h4>
                       <p className='text-white fs-14'>
                         It is a long established fact that a reader will be distracted
@@ -261,7 +261,7 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
           </div>
 
           <div className='pb-5 mb-5'>
-            <h1 className='text-center fs-1 fw-normal  text-white mb-5 text-uppercase headtxt'>Q & A</h1>
+            <h1 className='text-center fs-1 fw-normal  text-white mb-5 text-uppercase headtxt' id='q-and-a'>Q & A</h1>
             <div className='col-lg-12 col-12'>
               <div className={`${styles.bgAccordin} accordin`} id="accordionExample">
               <div className="accordion-item">
