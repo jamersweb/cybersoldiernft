@@ -14,7 +14,7 @@ export default function Home() {
      
       <nav className="navbar navbar-expand-lg bg-transparent  position-absolute left-right-0 " >
         <div className={` ${styles.cWidht} container pb-5`}>
-        <img class="header-logo" src="/logow.png" alt="Vercel Logo" />
+        <img class="header-logo" src="/logosign.png" alt="Vercel Logo" />
           <button className="navbar-toggler focusOutlineunset " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon">
             <i className="fa fa-bars fs-25 text-white focusOutlineunset"></i>
@@ -60,10 +60,11 @@ export default function Home() {
           </div>
 
 
-          <div className='text-center'>
-            {/* <h4 className='text-uppercase lh-sm text-white fw-normal fs-15 text-shadow-md'>
-               </h4> */}
-            <div className=' mt-5 dis-none'>
+          <div className='text-center mt-3'>
+            <h4 className='text-uppercase lh-sm text-white fw-normal fs-15 text-shadow-md px-md-5'>
+            10,000 programmatically generated Soldiers built a utopia in the Metaverse! Each Soldier is unique and 1 of over a billion possible combinations
+               </h4>
+            <div className='my-2 dis-none'>
             <a href='#' className={`${styles.topButton} ${styles.bgButton} btn btn-outline-primary mx-3 fw-normal text-uppercase text-white`}>
               <i className='fab fa-discord me-2'></i>JOIN DISCORD
               </a>
@@ -80,23 +81,44 @@ export default function Home() {
 
      <div className={styles.bgBody1}>
       <div className={`${styles.cWidht} container py-5`}>
-       <div className='text-center py-5'>
-       <h1 className='fw-normal fs-1 text-white headtxt' id='about-us'>ABOUT US</h1>
+       <div className='text-centr py-5 row'>
+       <div className='col-md-12'>
+       <h1 className='text-centr fw-normal fs-1 text-white headtxt' id='about-us'>ABOUT US</h1>
         <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
-        Cyber Soldier is a collection of one-of-a-kind non-fungible tokens (NFTs) to attract casual and interested new collectors. NFTs of Cyber Soldiers are both aesthetic and instructive. We provide complete NFT collection launch services not limited to graphic design, web development, digital marketing and blockchain development. We help brands and artists all around the world design and launch their own successful NFT collection. At Cyber Soldier, we also provide our members with exclusive, one-on-one access to some of the most innovative wheel-workers in technology today, from experts in NFTs and cryptocurrencies to Web3 and marketing, among a host of others, through personal coaching sessions and Q&As.
+        The only constant in the NFT space is change. Things change fast and we must adapt quickly to be able to survive and thrive in this space. This roadmap is no different. Our goal is to give you an idea of our current plans and we've considered feasibility of every element we've currently included in this plan, but we will change and adapt as the space changes. What will not change is our constant efforts to be transparent and open with our community members; that is a constant you can count on
            </p>
-        <a href='#' className={`${styles.topButton} ${styles.bgButton} btn btn-outline-primary mx-3 fw-normal text-uppercase text-white`}>READ MORE
+           <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
+
+           Each Soldier is a key to a community of crypto enthusiasts sharing their love and knowledge of all things NFT and DeFi.
+        </p>
+        <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
+
+        Cyber Soldiers are ERC-721 tokens hosted on IPFS and each one is randomly generated in an auditable, fair process.
+        </p>
+        <a href='#' className={`${styles.topButton} ${styles.bgButton} btn btn-outline-primary mx-3 fw-normal text-uppercase text-white d-none`}>READ MORE
         <i className="fa fa-chevron-down mx-2 text-white"></i>
         </a>
        </div>
-
-       <div className='py-5 d-none'>
+       </div>
+</div>
+      <div className={`container py-5 d-none`}>
+      <div className='text-centr py-5 row'>
+       <div className='col-md-12'>
+       <div className='py-5 '>
          <div className=''>
        <div className="ratio ratio-16x9 mb-5">
         <iframe src="https://www.youtube.com/embed/zpOULjyy-" title="YouTube video"></iframe>
       </div>
       </div>
        </div>
+       </div>
+       </div>
+       </div>
+
+
+
+
+       <div className={`container py-2`}>
 
           <div className='pb-md-5 pb-3'> 
             <h1 className={`${styles.animatedContent} text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt`} id='roadmap' >ROAD MAP</h1>
@@ -400,7 +422,7 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
 
           <footer className='-5'>
             <div className='col-lg-12 col-12 text-center'>
-              <Image className={styles.obfContain} src="/logow.png" alt="Vercel Logo" width={150} height={120} />
+              <Image className={styles.obfContain} src="/white-logo-png.png" alt="Vercel Logo" width={250} height={150} />
             </div>
             <nav className="navbar navbar-expand-lg bg-transparent">
               <div className={` ${styles.cWidht} container `}>
