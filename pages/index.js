@@ -12,9 +12,9 @@ export default function Home() {
       </Head>
 
      
-      <nav className="navbar navbar-expand-lg bg-transparent  position-absolute left-right-0 " >
-        <div className={` ${styles.cWidht} container pb-5`}>
-        <img class="header-logo" src="/logosign.png" alt="Vercel Logo" />
+      <nav className="navbar py-0 navbar-expand-lg bg-transparent  position-absolute left-right-0 " >
+        <div className={` ${styles.cWidht} container py-0`}>
+        <img class="header-logo" src="/white-logo-png.png" alt="Vercel Logo" />
           <button className="navbar-toggler focusOutlineunset " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon">
             <i className="fa fa-bars fs-25 text-white focusOutlineunset"></i>
@@ -82,7 +82,7 @@ export default function Home() {
      <div className={styles.bgBody1}>
       <div className={`${styles.cWidht} container py-5`}>
        <div className='text-centr py-5 row'>
-       <div className='col-md-12'>
+       <div className='col-md-12 py-5'>
        <h1 className='text-centr fw-normal fs-1 text-white headtxt' id='about-us'>ABOUT US</h1>
         <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
         The only constant in the NFT space is change. Things change fast and we must adapt quickly to be able to survive and thrive in this space. This roadmap is no different. Our goal is to give you an idea of our current plans and we've considered feasibility of every element we've currently included in this plan, but we will change and adapt as the space changes. What will not change is our constant efforts to be transparent and open with our community members; that is a constant you can count on
