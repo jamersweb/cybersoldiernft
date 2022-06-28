@@ -64,7 +64,7 @@ export default function Home() {
             <h4 className='text-uppercase lh-sm text-white fw-normal fs-15 text-shadow-md px-md-5'>
             10,000 programmatically generated Soldiers built a utopia in the Metaverse! Each Soldier is unique and 1 of over a billion possible combinations
                </h4>
-            <div className='my-2 dis-none'>
+            <div className='py-3 dis-none'>
             <a href='#' className={`${styles.topButton} ${styles.bgButton} btn btn-outline-primary mx-3 fw-normal text-uppercase text-white`}>
               <i className='fab fa-discord me-2'></i>JOIN DISCORD
               </a>
@@ -81,12 +81,12 @@ export default function Home() {
 
      <div className={styles.bgBody1}>
       <div className={`${styles.cWidht} container py-5`}>
-       <div className='text-centr py-5 row'>
+       <div className='text-center py-5 row'>
        <div className='col-md-12 py-5'>
        <h1 className='text-centr fw-normal fs-1 text-white headtxt' id='about-us'>ABOUT US</h1>
-        <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
+        {/* <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
         The only constant in the NFT space is change. Things change fast and we must adapt quickly to be able to survive and thrive in this space. This roadmap is no different. Our goal is to give you an idea of our current plans and we've considered feasibility of every element we've currently included in this plan, but we will change and adapt as the space changes. What will not change is our constant efforts to be transparent and open with our community members; that is a constant you can count on
-           </p>
+           </p> */}
            <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
 
            Each Soldier is a key to a community of crypto enthusiasts sharing their love and knowledge of all things NFT and DeFi.
@@ -136,8 +136,11 @@ export default function Home() {
               <Image className={styles.obfContain} src="/v-1.png" alt="Vercel Logo" width={250} height={300} />
               </div>
             </div> */}
+            <p className='text-uppercase text-center lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
 
-            <div className="row text-center pb-md-5">
+            The only constant in the NFT space is change. Things change fast and we must adapt quickly to be able to survive and thrive in this space. This roadmap is no different. Our goal is to give you an idea of our current plans and we've considered feasibility of every element we've currently included in this plan, but we will change and adapt as the space changes. What will not change is our constant efforts to be transparent and open with our community members; that is a constant you can count on
+</p>
+            <div className="row text-center pb-md-5 d-none">
              
               <ul className="nav nav-pills justify-content-center flex-w-unset wowow" id="pills-tab" role="tablist">
                 <li className="nav-item me-3rem" role="presentation">
@@ -182,6 +185,18 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
 
 
           </div>
+
+
+
+          <div className={`container py-2`}>
+          <div className='text-centr py-5 row'>
+       <div className='col-md-12'>
+       <h1 className={`${styles.animatedContent} text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt`} id='roadmap' >Cyber Soldier Utility</h1>
+
+       </div>
+       </div>
+</div>
+
 
 
   
