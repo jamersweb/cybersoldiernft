@@ -1,12 +1,16 @@
 @font-face {
   font-family: 'Marsek-Demi';
   src: url('../asset/Marsek-Demi.woff');
-  }
-  @font-face {
-    font-family: 'tarrgetengrave';
-    src: url('../asset/tarrgetengrave.ttf');
-    }
-  
+}
+
+@font-face {
+  font-family: 'tarrgetengrave';
+  src: url('../asset/tarrgetengrave.ttf');
+}
+@font-face {
+  font-family: 'UPBOLTERS';
+  src: url('../font/UPBOLTER.otf');
+} 
 
 .container {
   padding: 0 2rem;
@@ -25,7 +29,7 @@
 
 .footer {
 
- 
+
   justify-content: center;
   align-items: center;
 }
@@ -103,8 +107,11 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  font-family: 'UPBOLTERS';
 }
-
+.UPBOLTERS{
+  font-family: 'UPBOLTERS';
+}
 .logo {
   height: 1em;
   margin-left: 0.5rem;
@@ -114,12 +121,12 @@
   object-fit: contain;
 }
 
-.displayGrid  {
+.displayGrid {
   display: grid;
   justify-content: flex-end;
 }
 
-.iconList a  {
+.iconList a {
   background-color: transparent;
   border-radius: 50%;
   color: #ffffff;
@@ -139,7 +146,7 @@
 
 .iconList a:hover {
   background-image: url('../public/bgiconh.png');
- 
+
 }
 
 
@@ -160,20 +167,20 @@
 .bgButton {
   background-image: url('../public/button.png');
   background-size: 100% 100%;
-    background-repeat: no-repeat;
-    PADDING: 16px;
-    background-position: center;
-    transition: all 0.5s;
-  
+  background-repeat: no-repeat;
+  PADDING: 16px;
+  background-position: center;
+  transition: all 0.5s;
+
 }
 
 .bgButton:hover {
   background-image: url('../public/pinkbutton.png');
   background-size: 100% 100%;
-    background-repeat: no-repeat;
-    PADDING: 16px;
-    background-position: center;
-  
+  background-repeat: no-repeat;
+  PADDING: 16px;
+  background-position: center;
+
 }
 
 .bgTop11 {
@@ -217,16 +224,16 @@
   background-image: url(../public/bgRoadmap.png);
   background-size: cover;
   background-repeat: no-repeat;
- border-radius: 30px;
+  border-radius: 30px;
 }
 
 .accordionButton:not(.collapsed)::after {
   /* content: "\f067";
   font-family: "Font Awesome 5 Free";
   font-size: 20px; */
- background-image: url(../public/accRingplus.png);
- background-size: contain;
- padding: 30px;
+  background-image: url(../public/accRingplus.png);
+  background-size: contain;
+  padding: 30px;
 
 }
 
@@ -237,13 +244,13 @@
 }
 
 .tabFocus:focus {
-outline: unset;
-border: unset;
-box-shadow: unset;
+  outline: unset;
+  border: unset;
+  box-shadow: unset;
 }
 
 
-.bgTabContent  {
+.bgTabContent {
   background-image: url(../public/bgRoadmap.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -257,6 +264,7 @@ box-shadow: unset;
     display: flex !important;
     align-items: end;
   }
+
   .topButton {
     /* outline: 2px solid #0851DC; */
     border: unset;
@@ -266,27 +274,28 @@ box-shadow: unset;
     padding: 8px 6px;
   }
 
-  .bgTabContent  {
-   
+  .bgTabContent {
+
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
-  
-  
-.iconList a  {
 
-  height: 50px;
-  width: 50px;
 
-}
+  .iconList a {
+
+    height: 50px;
+    width: 50px;
+
+  }
+
   .grid {
     width: 100%;
     flex-direction: column;
   }
 
-  .displayGrid  {
+  .displayGrid {
     display: flex;
     justify-content: center;
   }
@@ -299,23 +308,16 @@ box-shadow: unset;
     display: none;
   }
 
-.fs15 {
+  .fs15 {
     font-size: 13px !important;
-}
+  }
 
 
 
 }
-  
 
 
-@media (min-width: 1400px) 
-{
-.cWidht {
-  max-width: 1200px;
-}
+/* 
+@media (min-width: 1400px) { 
 
-}
-
-
-
+} */
