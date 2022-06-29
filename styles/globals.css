@@ -385,10 +385,18 @@ position: unset !important;
   overflow-x: clip;
 }
 
-
-
-
-
+.utilities .card {
+  background-image: url(/_next/static/media/frame.82cb74d1.png);
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 25px;
+  background-color: #1e123ebf;
+  color: white;
+  border-radius: 30px;
+}
+.utilities .card p{
+font-size:12px;
+}
 
 
 

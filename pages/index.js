@@ -81,13 +81,13 @@ export default function Home() {
 
      <div className={styles.bgBody1}>
       <div className={`${styles.cWidht} container py-5`}>
-       <div className='text-center py-5 row'>
+       <div className='text-left py-5 row'>
        <div className='col-md-12 py-5'>
-       <h1 className='text-centr fw-normal fs-1 text-white headtxt' id='about-us'>ABOUT US</h1>
+       <h1 className='text-left fw-normal fs-1 text-white headtxt' id='about-us'>ABOUT US</h1>
         {/* <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
         The only constant in the NFT space is change. Things change fast and we must adapt quickly to be able to survive and thrive in this space. This roadmap is no different. Our goal is to give you an idea of our current plans and we've considered feasibility of every element we've currently included in this plan, but we will change and adapt as the space changes. What will not change is our constant efforts to be transparent and open with our community members; that is a constant you can count on
            </p> */}
-           <p className='text-uppercase lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
+           <p className='text-uppercase mb-0 lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
 
            Each Soldier is a key to a community of crypto enthusiasts sharing their love and knowledge of all things NFT and DeFi.
         </p>
@@ -121,7 +121,7 @@ export default function Home() {
        <div className={`container py-2`}>
 
           <div className='pb-md-5 pb-3'> 
-            <h1 className={`${styles.animatedContent} text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt`} id='roadmap' >ROAD MAP</h1>
+            <h1 className={`${styles.animatedContent} text-left fw-normal fs-1 text-white mb-5 text-uppercase headtxt`} id='roadmap' >ROAD MAP</h1>
             {/* <div className="row text-center pb-5 d-none">
               <div className="col-lg-4 ">
                 <p className='fw-normal fs-2 text-white text-uppercase lh-sm'>phase <br></br> 01</p>
@@ -136,7 +136,7 @@ export default function Home() {
               <Image className={styles.obfContain} src="/v-1.png" alt="Vercel Logo" width={250} height={300} />
               </div>
             </div> */}
-            <p className='text-uppercase text-center lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
+            <p className='text-uppercase text-left lh-lg text-white fs15 mx-md-20 fw-normal lh-lg'>
 
             The only constant in the NFT space is change. Things change fast and we must adapt quickly to be able to survive and thrive in this space. This roadmap is no different. Our goal is to give you an idea of our current plans and we've considered feasibility of every element we've currently included in this plan, but we will change and adapt as the space changes. What will not change is our constant efforts to be transparent and open with our community members; that is a constant you can count on
 </p>
@@ -188,12 +188,83 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
 
 
 
-          <div className={`container py-2`}>
-          <div className='text-centr py-5 row'>
+          <div className={`container py-5 utilities`}>
+          <div className='row'>
        <div className='col-md-12'>
        <h1 className={`${styles.animatedContent} text-center fw-normal fs-1 text-white mb-5 text-uppercase headtxt`} id='roadmap' >Cyber Soldier Utility</h1>
-
        </div>
+
+        <div class="col-md-4 my-3">
+            <div class="card ">
+            <h6 class="Marsek-Demi">Be part of the world’s loudest NFT community: </h6>
+              <p>
+              When you join the Cyber Soldier - by purchasing an NFT or just joining our Discord - 
+              you’re instantly part of our community. A global community that empowers and supports 
+              each other on this exciting journey into Web 3.0. 
+              We’re focused on building authentic connections as we delve into the metaverse together.
+              </p>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-3">
+            <div class="card ">
+            <h6 class="Marsek-Demi">Access monthly
+Rewards</h6>
+              <p>
+              As a Cyber Soldier NFT holder, you automatically gain access to our exclusive Rewards program which rewards you 
+              for participating in the community.
+               Our program will continuously evolve as we look at new ways to reward our members with additional benefits.
+              </p>
+            </div>
+        </div>
+
+        <div class="col-md-4 my-3">
+            <div class="card ">
+            <h6 class="Marsek-Demi">Explore the
+Metaverse with us</h6>
+              <p>
+              At Cyber Soldier, we are committed to exploring all the possibilities of the metaverse.
+               By joining the community, you will have access to every metaverse we enter.
+               Plus, there will be additional perks within our metaverse Private land for Cyber Soldier NFT holders.
+               </p>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 my-3">
+            <div class="card ">
+            <h6 class="Marsek-Demi">Own the full
+commercial rights </h6>
+              <p>
+              When you purchase a Cyber Soldier NFT, the art is totally and completely yours.
+               Whether you want to print and sell merchandise, use it in advertising, 
+               or want it to be the star of its own show!
+              </p>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 my-3">
+            <div class="card ">
+            <h6 class="Marsek-Demi">Have a voice in
+the project </h6>
+              <p>
+              Cyber Soldier gives you a voice in the development and success
+               of the project through AMAs with the dev team and formalised voting systems.
+              </p>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 my-3">
+            <div class="card ">
+            <h6 class="Marsek-Demi">Receive
+Airdrops </h6>
+              <p>
+              As a Cyber Soldier NFT holder, you'll be eligible for future airdrops of tokens and other prizes.
+              </p>
+            </div>
+        </div>
        </div>
 </div>
 
