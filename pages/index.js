@@ -94,11 +94,9 @@ export default function Home() {
         The only constant in the NFT space is change. Things change fast and we must adapt quickly to be able to survive and thrive in this space. This roadmap is no different. Our goal is to give you an idea of our current plans and we've considered feasibility of every element we've currently included in this plan, but we will change and adapt as the space changes. What will not change is our constant efforts to be transparent and open with our community members; that is a constant you can count on
            </p> */}
                   <p className='text-uppercase mb-0 lh-lg text-white fs15 mx--20 fw-normal lh-lg'>
-
                     Each Soldier is a key to a community of crypto enthusiasts sharing their love and knowledge of all things NFT and DeFi.
                   </p>
                   <p className='text-uppercase lh-lg text-white fs15 mx--20 fw-normal lh-lg'>   
-
                     Cyber Soldiers are ERC-721 tokens hosted on IPFS and each one is randomly generated in an auditable, fair process.
                   </p>
                   <a href='#' className={`${styles.topButton} ${styles.bgButton} btn btn-outline-primary mx-3 fw-normal text-uppercase text-white d-none`}>READ MORE
@@ -107,7 +105,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className={`container py-5 d-none`}>
+            <div className={`container py-5 d-none wowwww`}>
               <div className='text-centr py-5 row'>
                 <div className='col-md-12'>
                   <div className='py-5 '>
