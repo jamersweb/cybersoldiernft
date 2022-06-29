@@ -196,7 +196,7 @@ This one is going to be unique! And the winners will be paid handsomely. Partici
 
         <div class="col-md-4 my-3">
             <div class="card ">
-            <h6 class="Marsek-Demi">Be part of the world’s loudest NFT community: </h6>
+            <h6 class="Marsek-Demi">Be part of the world’s loudest NFT community </h6>
               <p>
               When you join the Cyber Soldier - by purchasing an NFT or just joining our Discord - 
               you’re instantly part of our community. A global community that empowers and supports 
