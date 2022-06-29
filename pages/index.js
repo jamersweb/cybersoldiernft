@@ -97,7 +97,7 @@ export default function Home() {
 
                     Each Soldier is a key to a community of crypto enthusiasts sharing their love and knowledge of all things NFT and DeFi.
                   </p>
-                  <p className='text-uppercase lh-lg text-white fs15 mx--20 fw-normal lh-lg'>
+                  <p className='text-uppercase lh-lg text-white fs15 mx--20 fw-normal lh-lg'>   
 
                     Cyber Soldiers are ERC-721 tokens hosted on IPFS and each one is randomly generated in an auditable, fair process.
                   </p>
