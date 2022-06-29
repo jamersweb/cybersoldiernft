@@ -386,7 +386,10 @@ position: unset !important;
 }
 
 .utilities .card {
-  background-image: url(/_next/static/media/frame.82cb74d1.png);
+  /* background-image: url(/_next/static/media/frame.82cb74d1.png); */
+
+  background-image: url(../public/bgRoadmap.png);
+
   background-position: center;
   background-size: 100% 100%;
   padding: 25px;
