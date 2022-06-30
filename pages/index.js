@@ -278,17 +278,17 @@ export default function Home() {
                     <div className='imgHover margin-minus-right position-relative'>
                       <img className='cw-width' style={{ marginLeft: 0, }} src="/banner-05.png" alt="Vercel Logo" width={220} height={600} data-aos="fade-right" data-aos-anchor-placement="right-right" data-aos-delay="500" />
                       <div className='imgTxt characterTab position-absolute w-350 c-md-left1 text-start  text-uppercase'>
-                        <p className="text-light opacity-25 fs-14 mb-0">Co-Founder</p>
+                        <p className="text-light opacity-25 fs-14 mb-0">Development Team</p>
                         <h4 className='text-white fs-4 UPBOLTERS'>
-                          Soldier 1
+                         Elite Blue Technologies
                         </h4>
                         <p className='text-white fs-10 text-start mb-2'>
                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, ullam?
                         </p>
                         <div className="icons">
-                          <a href="https://facebook.com" target="_blank">   <i class="fa-brands fa-facebook-square mx-1"></i></a>
-                          <a href="https://instagram.com" target="_blank">   <i class="fa-brands fa-instagram-square mx-1"></i></a>
-                          <a href="https://twitter.com" target="_blank">   <i class="fa-brands fa-twitter-square mx-1"></i></a>
+                          <a href="https://www.facebook.com/elitebluetechnologies" target="_blank">   <i class="fa-brands fa-facebook-square mx-1"></i></a>
+                          <a href="https://www.instagram.com/elitebluetechnologies/" target="_blank">   <i class="fa-brands fa-instagram-square mx-1"></i></a>
+                          <a href="https://twitter.com/EliteBlueTechn1" target="_blank">   <i class="fa-brands fa-twitter-square mx-1"></i></a>
                         </div>
                       </div>
                     </div>
@@ -330,7 +330,7 @@ export default function Home() {
                     <div className='imgHover margin-minus-left position-relative'>
                       <img className='cw-width' style={{ marginLeft: 0 }} src="/banner-04.png" alt="Vercel Logo" data-aos="fade-left" data-aos-anchor-placement="left-left" data-aos-delay="250" />
                       <div className='imgTxt characterTab position-absolute w-350 c-md-left4 text-start  text-uppercase'>
-                        <p className="text-light opacity-25 fs-14 mb-0">Develoment Team</p>
+                        <p className="text-light opacity-25 fs-14 mb-0">Co-Founder</p>
                         <h4 className='text-white fs-4 UPBOLTERS'>
                           Soldier 4
                         </h4>
@@ -526,7 +526,7 @@ export default function Home() {
               </div>
               <nav className="navbar navbar-expand-lg bg-transparent">
                 <div className={` ${styles.cWidht} container `}>
-                  <div className="navbar-collapse text-center" id="">
+                  <div className="navbar-collapse text-center collapse text-center" id="">
                     <ul className="navbar-nav m-auto mb-2 mb-lg-0" >
                       <li className="nav-item">
                         <a className="nav-link text-uppercase fw-Normal text-white fs-6" aria-current="page" href="#">About Us</a>
