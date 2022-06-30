@@ -283,7 +283,7 @@ export default function Home() {
                          Elite Blue Technologies
                         </h4>
                         <p className='text-white fs-10 text-start mb-2'>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, ullam?
+                        is a group of driven engineers and strategists dedicated to creating mission-critical software solutions.
                         </p>
                         <div className="icons">
                           <a href="https://www.facebook.com/elitebluetechnologies" target="_blank">   <i class="fa-brands fa-facebook-square mx-1"></i></a>
