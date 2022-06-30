@@ -29,6 +29,8 @@ export default function Home() {
             <img className="header-logo" src="/white-logo-png.png" alt="Vercel Logo" />
             <button className="navbar-toggler focusOutlineunset " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon">
+                {/* <img src="../public/menu.png" alt="..." /> */}
+                {/* <div className="toggler-ico"></div> */}
                 <i className="fa fa-bars fs-25 text-white focusOutlineunset"></i>
               </span>
 
@@ -73,7 +75,7 @@ export default function Home() {
 
 
             <div className='text-center mt-3'>
-              <h4 className='text-uppercase lh-sm text-white fw-normal fs-15 text-shadow-md px-md-5'>
+              <h4 className='text-uppercase lh-sm text-white fw-normal fs15 text-shadow-md px-md-5'>
                 10,000 programmatically generated Soldiers built a utopia in the Metaverse! Each Soldier is unique and 1 of over a billion possible combinations
               </h4>
               <div className='py-3 dis-none'>
@@ -287,64 +289,89 @@ export default function Home() {
                   <div className='d-flex align-items-end justify-content-center sm-relative' style={{ justifyContent: 'flex-end' }}>
                     <div className='imgHover margin-minus-right position-relative'>
                       <img className='cw-width' style={{ marginLeft: 0, }} src="/banner-05.png" alt="Vercel Logo" width={220} height={600} data-aos="fade-right" data-aos-anchor-placement="right-right" data-aos-delay="500" />
-                      <div className='imgTxt characterTab position-absolute w-350 c-md-left1'>
-                        <h4 className='text-white fs-20 UPBOLTERS'>
-                          Character 1
+                      <div className='imgTxt characterTab position-absolute w-350 c-md-left1 text-start  text-uppercase'>
+                        <p className="text-light opacity-25 fs-14 mb-0">Co-Founder</p>
+                        <h4 className='text-white fs-4 UPBOLTERS'>
+                          Soldier 1
                         </h4>
-                        <p className='text-white fs-14'>
-                          It is a long established fact that a reader will be distracted
-                          by the readable content of a page when looking at its layout
+                        <p className='text-white fs-10 text-start mb-2'>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, ullam?
                         </p>
+                        <div className="icons">
+                          <a href="https://facebook.com" target="_blank">   <i class="fa-brands fa-facebook-square mx-1"></i></a>
+                          <a href="https://instagram.com" target="_blank">   <i class="fa-brands fa-instagram-square mx-1"></i></a>
+                          <a href="https://twitter.com" target="_blank">   <i class="fa-brands fa-twitter-square mx-1"></i></a>
+                        </div>
                       </div>
                     </div>
                     <div className='imgHover margin-minus-right position-relative'>
                       <img className='cw-width' style={{ marginLeft: 0 }} src="/banner-06.png" alt="Vercel Logo" width={220} height={600} data-aos="fade-right" data-aos-anchor-placement="right-right" data-aos-delay="250" />
-                      <div className='imgTxt characterTab position-absolute w-350 c-md-left2'>
-                        <h4 className='text-white fs-20 UPBOLTERS '>
-                          Character 2
+                      <div className='imgTxt characterTab position-absolute w-350 c-md-left2 text-start  text-uppercase'>
+                        <p className="text-light opacity-25 fs-14 mb-0">Artist</p>
+                        <h4 className='text-white fs-4 UPBOLTERS'>
+                          Soldier 2
                         </h4>
-                        <p className='text-white fs-14'>
-                          It is a long established fact that a reader will be distracted
-                          by the readable content of a page when looking at its layout
+                        <p className='text-white fs-10 text-start mb-2'>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, ullam?
                         </p>
+                        <div className="icons">
+                          <a href="https://facebook.com" target="_blank">   <i class="fa-brands fa-facebook-square mx-1"></i></a>
+                          <a href="https://instagram.com" target="_blank">   <i class="fa-brands fa-instagram-square mx-1"></i></a>
+                          <a href="https://twitter.com" target="_blank">   <i class="fa-brands fa-twitter-square mx-1"></i></a>
+                        </div>
                       </div>
                     </div>
                     <div className='imgHover  position-relative '>
                       <img className='cw-m-img' src="/banner-03.png" alt="Vercel Logo" width={300} height={600} data-aos="zoom-out-up" />
-                      <div className='imgTxt characterTab position-absolute w-350 c-md-left3'>
-                        <h4 className='text-white fs-20 UPBOLTERS'>
-                          Character 3
+                      <div className='imgTxt characterTab position-absolute w-350 c-md-left3 text-start  text-uppercase'>
+                        <p className="text-light opacity-25 fs-14 mb-0">Founder</p>
+                        <h4 className='text-white fs-4 UPBOLTERS'>
+                          Soldier 3
                         </h4>
-                        <p className='text-white fs-14'>
-                          It is a long established fact that a reader will be distracted
-                          by the readable content of a page when looking at its layout
+                        <p className='text-white fs-10 text-start mb-2'>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, ullam?
                         </p>
+                        <div className="icons">
+                          <a href="https://facebook.com" target="_blank">   <i class="fa-brands fa-facebook-square mx-1"></i></a>
+                          <a href="https://instagram.com" target="_blank">   <i class="fa-brands fa-instagram-square mx-1"></i></a>
+                          <a href="https://twitter.com" target="_blank">   <i class="fa-brands fa-twitter-square mx-1"></i></a>
+                        </div>
                       </div>
                     </div>
 
                     <div className='imgHover margin-minus-left position-relative'>
                       <img className='cw-width' style={{ marginLeft: 0 }} src="/banner-04.png" alt="Vercel Logo" data-aos="fade-left" data-aos-anchor-placement="left-left" data-aos-delay="250" />
-                      <div className='imgTxt characterTab position-absolute w-350 c-md-left4'>
-                        <h4 className='text-white fs-20 UPBOLTERS'>
-                          Character 4
+                      <div className='imgTxt characterTab position-absolute w-350 c-md-left4 text-start  text-uppercase'>
+                        <p className="text-light opacity-25 fs-14 mb-0">Develoment Team</p>
+                        <h4 className='text-white fs-4 UPBOLTERS'>
+                          Soldier 4
                         </h4>
-                        <p className='text-white fs-14'>
-                          It is a long established fact that a reader will be distracted
-                          by the readable content of a page when looking at its layout
+                        <p className='text-white fs-10 text-start mb-2'>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, ullam?
                         </p>
+                        <div className="icons">
+                          <a href="https://facebook.com" target="_blank">   <i class="fa-brands fa-facebook-square mx-1"></i></a>
+                          <a href="https://instagram.com" target="_blank">   <i class="fa-brands fa-instagram-square mx-1"></i></a>
+                          <a href="https://twitter.com" target="_blank">   <i class="fa-brands fa-twitter-square mx-1"></i></a>
+                        </div>
                       </div>
                     </div>
 
                     <div className='imgHover margin-minus-left position-relative'>
                       <img className='cw-width' style={{ marginLeft: 0, }} src="/banner-02.png" alt="Vercel Logo" width={220} height={600} data-aos="fade-left" data-aos-anchor-placement="left-left" data-aos-delay="500" />
-                      <div className='imgTxt characterTab position-absolute w-350 c-md-left5'>
-                        <h4 className='text-white fs-20 UPBOLTERS'>
-                          Character 5
+                      <div className='imgTxt characterTab position-absolute w-350 c-md-left5 text-start  text-uppercase'>
+                        <p className="text-light opacity-25 fs-14 mb-0">Co-Founder</p>
+                        <h4 className='text-white fs-4 UPBOLTERS'>
+                          Soldier 5
                         </h4>
-                        <p className='text-white fs-14'>
-                          It is a long established fact that a reader will be distracted
-                          by the readable content of a page when looking at its layout
+                        <p className='text-white fs-10 text-start mb-2'>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, ullam?
                         </p>
+                        <div className="icons">
+                          <a href="https://facebook.com" target="_blank">   <i class="fa-brands fa-facebook-square mx-1"></i></a>
+                          <a href="https://instagram.com" target="_blank">   <i class="fa-brands fa-instagram-square mx-1"></i></a>
+                          <a href="https://twitter.com" target="_blank">   <i class="fa-brands fa-twitter-square mx-1"></i></a>
+                        </div>
                       </div>
                     </div>
 
@@ -506,13 +533,13 @@ export default function Home() {
             </div>
 
             <footer className='-5'>
-              <div className='col-lg-12 col-12 text-center' data-aos="zoom-out-up">
+              <div className='col-lg-12 col-12 text-center' >
                 <Image className={styles.obfContain} src="/white-logo-png.png" alt="Vercel Logo" width={250} height={150} />
               </div>
               <nav className="navbar navbar-expand-lg bg-transparent">
                 <div className={` ${styles.cWidht} container `}>
-                  <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
-                    <ul className="navbar-nav m-auto mb-2 mb-lg-0" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="100">
+                  <div className="navbar-collapse text-center" id="">
+                    <ul className="navbar-nav m-auto mb-2 mb-lg-0" >
                       <li className="nav-item">
                         <a className="nav-link text-uppercase fw-Normal text-white fs-6" aria-current="page" href="#">About Us</a>
                       </li>
