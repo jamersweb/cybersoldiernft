@@ -1,17 +1,9 @@
-import React, { useEffect } from "react";
-import Head from 'next/head'
+ import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import styles from '../styles/Home.module.css' 
 
 
 export default function Home() {
-
-  // useEffect(() => {
-  //   AOS.init();
-  // }, [])
-
 
   return (
     <>
