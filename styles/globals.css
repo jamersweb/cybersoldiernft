@@ -38,11 +38,13 @@ a {
   font-family: 'Marsek-Demi';
   scroll-behavior: smooth;
 }
-html{
-  
+
+html {
+
   scroll-behavior: smooth;
 
 }
+
 .nav-link .cone {
   display: none !important;
 }
@@ -153,10 +155,10 @@ html{
   /* display: none; */
   opacity: 0;
   transition: all ease-in-out .5s;
-  transform: translatey(0px); 
+  transform: translatey(0px);
 
 
-} 
+}
 
 
 
@@ -414,17 +416,28 @@ html{
   overflow-x: clip;
 }
 
-.utilities .card {  
-  background-image: url(../public/bgRoadmap.png);
-
+.utilities .card {
+  /* background-image: url(../public/bgRoadmap.png); */
+  /* background-color: #1e123ebf; */
+  background: linear-gradient(180deg, rgba(149, 0, 255, .15) 30%, rgba(25, 0, 255, 0.15) 100%);
   background-position: center;
   background-size: 100% 100%;
   padding: 25px;
-  background-color: #1e123ebf;
   color: white;
-  border-radius: 30px;
+  border-radius: 50px;
   height: 100%;
   text-align: center;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 45px;
+  padding: 5px;
+  background: linear-gradient(180deg, #9500ff, #1b00ff);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
 }
 
 /* Hover Start  */
@@ -433,67 +446,40 @@ html{
   cursor: pointer;
   z-index: 0;
   justify-content: center;
-  transition: .5s ease-out;
+  transition: .3s ease-out;
+
 }
-.card:hover{
+
+.card:hover {
+  box-shadow:
+    0px 0px 20px 0px rgba(194, 159, 255, 0.718),
+    0px 0px 30px 0px rgba(188, 149, 255, 0.73),
+    0px 0px 50px 0px rgba(177, 132, 255, 0.643);
+
   box-shadow: 
-  0px 0px 20px 0px rgba(194, 159, 255, 0.718),
-  0px 0px 30px 0px rgba(188, 149, 255, 0.73),
-  0px 0px 50px 0px rgba(177, 132, 255, 0.643)
-  ;
-transition: .5s ease-out;
+  5px 5px 15px 5px #9500ff59,
+  -9px 5px 15px 5px #9500ff59, 
+  -7px -5px 15px 5px #9500ff59, 
+  12px -5px 15px 5px #1900ff70, 
+  12px 10px 15px 7px #1900ff70, 
+  -10px 10px 15px 7px #1900ff70, 
+  -10px -7px 27px 1px #1900ff70; 
+  /* 5px 5px 15px 5px #00000000; */
+
+
+  transition: .3s ease-out;
 }
 
-/* .card:before {
-  content: ''; 
-  background: linear-gradient(45deg, #ff006a, #e100ff, #b700ff, #6a00ff, #0088ff, #6a00ff, #b700ff, #e100ff, #ff006a);
+/* .card:hover::after{
+  content: "";
   position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(10px);
-  width: calc(100% + 8px);
-  height: calc(100% + 8px);
-  animation: glowing 30s linear infinite;
-  opacity: 0;
-  transition: opacity .3s ease-in-out;
-  border-radius: 10px;
-}
-
-
-
-.card:hover:before {
-  opacity: 1;
-}
-
-.card:after {
-  z-index: -1;
-  content: '';
-  position: absolute;
-  width: 100%;
+  width: 90%;
   height: 100%;  
-  background: #36375a;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
-
-@keyframes glowing {
-  0% {
-    background-position: 0 0;
-  }
-
-  50% {
-    background-position: 400% 0;
-  }
-
-  100% {
-    background-position: 0 0;
-  }
+  z-index: -1;
+  filter: blur(40px);
+  background:  linear-gradient(180deg, #9500ff, #1b00ff);
 } */
 
-/* Hover End   */
 
 .utilities .card p {
   font-size: 11px;
@@ -511,6 +497,7 @@ img {
 
 body {
   background-color: #000;
+  overflow-x: hidden;
 }
 
 .ag-smoke-block {
