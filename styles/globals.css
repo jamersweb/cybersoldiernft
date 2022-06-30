@@ -218,7 +218,7 @@ html {
   animation-name: fadeOut;
 }
 
-@-webkit-keyframes masked-animation {
+/* @-webkit-keyframes masked-animation {
   0% {
     background-position: left bottom;
   }
@@ -226,7 +226,7 @@ html {
   100% {
     background-position: right bottom;
   }
-}
+} */
 
 #start {
   position: absolute;
@@ -277,7 +277,7 @@ html {
   background: url(../public/focusteam.png);
 }
 
-@-webkit-keyframes masked-animation {
+/* @-webkit-keyframes masked-animation {
   0% {
     background-position: left bottom;
   }
@@ -285,7 +285,7 @@ html {
   100% {
     background-position: right bottom;
   }
-}
+} */
 
 
 
@@ -438,9 +438,7 @@ html {
   background: linear-gradient(180deg, #9500ff, #1b00ff);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
-}
-
-/* Hover Start  */
+} 
 
 .card {
   cursor: pointer;

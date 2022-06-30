@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 
 export default function Home() {
 
-useEffect(() => {
+  useEffect(() => {
     AOS.init();
   }, [])
 
