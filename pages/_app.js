@@ -3,14 +3,12 @@ import Script from 'next/script';
 import '../styles/globals.css'
 import { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 // import "../scss/style.scss";
 
 function MyApp({ Component, pageProps }) {
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
 
   return (
 
@@ -19,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -39,7 +38,10 @@ function MyApp({ Component, pageProps }) {
         crossOrigin="anonymous" />
       <Script src="https://kit.fontawesome.com/d01e5a8307.js" crossOrigin="anonymous" />
       <Script src='https://uploads-ssl.webflow.com/622b98d77f03094279ee9a46/js/webflow.58844266b.js' />
-      {/* <script src="https://codepen.io/osublake/pen/e72106811a34efcccff91a03568cc790.js?v=3" /> */}
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 
       <Component {...pageProps} />
 
